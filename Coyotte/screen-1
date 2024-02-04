@@ -1,0 +1,36 @@
+import React from "react";
+import "./style.css";
+
+export const Screen = () => {
+  return (
+    <div className="screen">
+      <div className="overlap-wrapper">
+        <div className="overlap">
+          <div className="rectangle" />
+          <div className="div" />
+          <img className="c" alt="C" src="c.svg" />
+          <div className="text-wrapper">oyotte</div>
+          <p className="just-shout-for-all">Just shout&nbsp;&nbsp;for all your couriers!!!</p>
+          <img className="notability" alt="Notability" src="notability.png" />
+          <div className="login-with-facebook">
+            <div className="overlap-group">
+              <div className="login-with-facebook-2">Signup with Facebook</div>
+              <img className="facebook-logo" alt="Facebook logo" src="facebook-logo.png" />
+            </div>
+          </div>
+          <img className="login-with-google" alt="Login with google" src="login-with-google.png" />
+          <div className="alredy-account-login">
+            <div className="text-wrapper-2">Login</div>
+            <div className="text-wrapper-3">Already have an account?</div>
+          </div>
+          <img className="red-and-white" alt="Red and white" src="red-and-white-megaphone.png" />
+          <div className="line-field">
+            <img className="line" alt="Line" src="line-1.svg" />
+            <img className="img" alt="Line" src="line-2.svg" />
+            <div className="OR-text">Or With</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

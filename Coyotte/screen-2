@@ -1,0 +1,54 @@
+import React from "react";
+import { ArrowLeftLarge } from "./ArrowLeftLarge";
+import { Battery } from "./Battery";
+import "./style.css";
+
+export const Screen = () => {
+  return (
+    <div className="screen">
+      <div className="div">
+        <div className="left-side-icons">
+          <img className="group" alt="Group" src="group-1.png" />
+          <div className="text-wrapper">14:55</div>
+        </div>
+        <p className="p">Connect with your Courier today!</p>
+        <div className="text-wrapper-2">Create an account</div>
+        <div className="user-name-field-text">
+          <div className="overlap-group">
+            <div className="text-wrapper-3">Enter Your Username</div>
+          </div>
+        </div>
+        <div className="email-field-text">
+          <div className="overlap">
+            <div className="text-wrapper-3">Enter Your Email</div>
+          </div>
+        </div>
+        <div className="password-field-text">
+          <div className="overlap-2">
+            <img className="eye-password-logo" alt="Eye password logo" src="eye-password-logo.png" />
+            <div className="text-wrapper-3">Enter Your Password</div>
+          </div>
+        </div>
+        <div className="signup-field-text">
+          <div className="div-wrapper">
+            <div className="text-wrapper-4">Sign Up</div>
+          </div>
+        </div>
+        <div className="alredy-account-login">
+          <p className="by-clicking-signup">
+            <span className="span">By clicking </span>
+            <span className="text-wrapper-5">Signup,</span>
+            <span className="span"> you agree to the terms and condtions.</span>
+          </p>
+        </div>
+        <div className="right-side-icons">
+          <div className="group-2">
+            <Battery className="battery-instance" />
+            <img className="vector" alt="Vector" src="vector.svg" />
+          </div>
+        </div>
+        <ArrowLeftLarge className="arrow-left-large" />
+      </div>
+    </div>
+  );
+};

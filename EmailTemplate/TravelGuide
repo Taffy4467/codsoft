@@ -1,0 +1,1974 @@
+/* Travel guide */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: relative;
+width: 620px;
+height: 2174px;
+
+
+
+/* Group 10 */
+
+width: 600px;
+height: 2055px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 600px;
+height: 1124px;
+left: 10px;
+top: 10px;
+
+
+
+/* ✉️ trip advisor */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 600px;
+height: 2164px;
+left: 0px;
+top: 0px;
+
+background: #E8E852;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 🚣 Alert Bar Icon (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 8px;
+
+width: 600px;
+height: 290px;
+
+background: #F1F11D;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 16px;
+gap: 8px;
+
+width: 209px;
+height: 37px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 8px;
+
+width: 351px;
+height: 258px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 10 */
+
+width: 351px;
+height: 250px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 🚣 Footer Navigation Bar (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 600px;
+height: 44px;
+
+background: #AFF187;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 568px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 🍔 Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 187px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 🔗 Link */
+
+width: 50px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #F61709;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 🔗 Link */
+
+width: 72px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #F71506;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 🔗 Link */
+
+width: 49px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #F91506;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 🚣 Title, Paragraph, Button Block (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 600px;
+height: 244px;
+
+background: #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px 32px 40px;
+gap: 8px;
+isolation: isolate;
+
+width: 600px;
+height: 244px;
+
+background: #8ADF88;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 223px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 114%;
+/* identical to box height, or 32px */
+
+color: #1E2EBF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* ✍️ Text */
+
+width: 536px;
+height: 128px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+color: #110D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* 📐 Spacer */
+
+width: 536px;
+height: 4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* 🔗 Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 22px;
+gap: 8px;
+
+position: absolute;
+width: 75px;
+height: 32px;
+left: 469px;
+top: 206px;
+
+background: #0C4190;
+border-radius: 60px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* ✍️ Learn More */
+
+width: 61px;
+height: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8ADF88;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 🚣 Section Divider (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 32px;
+gap: 16px;
+
+width: 600px;
+height: 18px;
+
+background: #EC9D9D;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 536px;
+height: 1px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ➖ Divider */
+
+width: 536px;
+height: 1px;
+
+background: #181515;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🎁 Image Text Split Grouped (Wrapper For Multiple Rows) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 600px;
+height: 559px;
+
+background: #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Image Text Split Grouped (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+
+width: 568px;
+height: 240px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 📷 Image */
+
+width: 300px;
+height: 200px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 2 */
+
+position: absolute;
+width: 266px;
+height: 200px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 260px;
+height: 189px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 153px;
+
+font-family: 'Khula';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+color: #020202;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Image Text Split Grouped (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+
+width: 568px;
+height: 271px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 📷 Image */
+
+width: 300px;
+height: 200px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 4 */
+
+position: absolute;
+width: 262px;
+height: 204px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 260px;
+height: 231px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 185px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #777777;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🎁 Image Text Split Grouped (Wrapper For Multiple Rows) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 600px;
+height: 603px;
+
+background: #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Image Text Split Grouped (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+
+width: 568px;
+height: 292px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 📷 Image */
+
+width: 300px;
+height: 200px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 8 */
+
+position: absolute;
+width: 258px;
+height: 200px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 260px;
+height: 252px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 204px;
+
+font-family: 'Khula';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+color: #060505;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Image Text Split Grouped (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+
+width: 568px;
+height: 263px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 📷 Image */
+
+width: 300px;
+height: 200px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 9 */
+
+position: absolute;
+width: 258px;
+height: 200px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 260px;
+height: 223px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 177px;
+
+font-family: 'Khula';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+color: #040404;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🎁 Image Text Split Grouped (Wrapper For Multiple Rows) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 16px 16px;
+gap: 16px;
+
+width: 600px;
+height: 264px;
+
+background: #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Image Text Split Grouped (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+
+width: 568px;
+height: 240px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 📷 Image */
+
+width: 300px;
+height: 200px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 6 */
+
+position: absolute;
+width: 259px;
+height: 200px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 260px;
+height: 193px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 244px;
+height: 145px;
+
+font-family: 'Khula';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+color: #090808;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🚣 Footer Stacked Center (Row For Content Columns) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+width: 600px;
+height: 142px;
+
+background: #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🏛️ Column (For Content Elements) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 568px;
+height: 110px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ✍️ Text */
+
+width: 568px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+text-align: center;
+
+color: #080707;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✍️ Text */
+
+width: 568px;
+height: 42px;
+
+font-family: 'Khula';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+
+color: #0B0909;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🐦 Social */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 128px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 🔗 Social Icon Link */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* 🔗 Social Icon Link */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* 🔗 Social Icon Link */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Clip path group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5%;
+bottom: 5%;
+
+
+
+/* a */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5%;
+bottom: 5%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5%;
+bottom: 5%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 1.16%;
+right: 0.79%;
+top: 6.12%;
+bottom: 6.12%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 1.16%;
+right: 0.79%;
+top: 6.12%;
+bottom: 6.12%;
+
+background: #000000;
+
+
+/* 🔗 Social Icon Link */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+
+
+/* O */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 53.11px;
+top: 32px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 53.11px;
+top: 32px;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 53.11px;
+top: 32px;
+
+background: #FF0000;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 89px;
+top: 32px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 89px;
+top: 32px;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 89px;
+top: 32px;
+
+background: #1400FF;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 125px;
+top: 32px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 125px;
+top: 32px;
+
+background: #288D05;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 125px;
+top: 32px;
+
+background: #000000;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 161px;
+top: 32px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 161px;
+top: 32px;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 161px;
+top: 32px;
+
+background: #820D7D;
+border-radius: 78.5673px;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 353px;
+top: 813px;
+
+
+
+/* Star 1 */
+
+width: 20px;
+height: 24px;
+
+background: #5DCD18;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star 2 */
+
+width: 20px;
+height: 24px;
+
+background: #23B628;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Star 3 */
+
+width: 20px;
+height: 24px;
+
+background: #23B628;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Star 4 */
+
+width: 20px;
+height: 24px;
+
+background: #0BAF08;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 353px;
+top: 1094px;
+
+
+
+/* Star 1 */
+
+width: 20px;
+height: 24px;
+
+background: #5DCD18;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star 2 */
+
+width: 20px;
+height: 24px;
+
+background: #23B628;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Star 3 */
+
+width: 20px;
+height: 24px;
+
+background: #23B628;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Star 4 */
+
+width: 20px;
+height: 24px;
+
+background: #0BAF08;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Component 1 */
+
+position: absolute;
+width: 129px;
+height: 26px;
+left: 360px;
+top: 1429px;
+
+
+
+/* Star 5 */
+
+position: absolute;
+left: 0%;
+right: 79.07%;
+top: 0%;
+bottom: 0%;
+
+background: #18AA15;
+
+
+/* Star 7 */
+
+position: absolute;
+left: 27.91%;
+right: 51.16%;
+top: 0%;
+bottom: 0%;
+
+background: #18AA15;
+
+
+/* Star 8 */
+
+position: absolute;
+left: 54.26%;
+right: 24.81%;
+top: 0%;
+bottom: 0%;
+
+background: #18AA15;
+
+
+/* Star 9 */
+
+position: absolute;
+left: 79.07%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #18AA15;
+
+
+/* Component 2 */
+
+position: absolute;
+width: 91px;
+height: 26px;
+left: 370px;
+top: 1713px;
+
+
+
+/* Star 10 */
+
+position: absolute;
+left: 0%;
+right: 70.33%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Star 11 */
+
+position: absolute;
+left: 35.16%;
+right: 35.16%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Star 12 */
+
+position: absolute;
+left: 70.33%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Component 3 */
+
+position: absolute;
+width: 91px;
+height: 26px;
+left: 378px;
+top: 1967px;
+
+
+
+/* Star 10 */
+
+position: absolute;
+left: 0%;
+right: 70.33%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Star 11 */
+
+position: absolute;
+left: 35.16%;
+right: 35.16%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Star 12 */
+
+position: absolute;
+left: 70.33%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #34AC09;
+
+
+/* Component 4 */
+
+position: absolute;
+width: 85px;
+height: 17px;
+left: 363px;
+top: 2048px;
+
+
+
+/* O */
+
+position: absolute;
+left: 0%;
+right: 74.98%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 0%;
+right: 74.98%;
+top: 0%;
+bottom: 0%;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 0%;
+right: 74.98%;
+top: 0%;
+bottom: 0%;
+
+background: #FF0000;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+left: 24.94%;
+right: 50.04%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 24.94%;
+right: 50.04%;
+top: 0%;
+bottom: 0%;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 24.94%;
+right: 50.04%;
+top: 0%;
+bottom: 0%;
+
+background: #1400FF;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+left: 49.96%;
+right: 25.02%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 49.96%;
+right: 25.02%;
+top: 0%;
+bottom: 0%;
+
+background: #288D05;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 49.96%;
+right: 25.02%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+border-radius: 78.5673px;
+
+
+/* O */
+
+position: absolute;
+left: 74.98%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 74.98%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #66E0FF;
+border-radius: 78.5673px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 74.98%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #820D7D;
+border-radius: 78.5673px;
